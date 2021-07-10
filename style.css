@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:#bf5f39 ;
+    padding:20px;
+}
+header > h1{
+    color:#e9f2f1;
+    text-align: center;
+    font-size:bold;
+}
