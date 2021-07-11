@@ -57,9 +57,16 @@ body{
 }
 
 .stcho{
-    display: inline-block;
+    text-align: center;
+    margin:40px;
 }
+
+
 i{
+    display: inline-block;
     color:#f5d15d;
-    margin-top: 40px;
+    margin: 0 20px;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding:20px ;
 }
