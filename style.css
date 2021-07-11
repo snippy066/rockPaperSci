@@ -18,3 +18,34 @@ body{
     background-color:#21024a;
     color:white;
 }
+
+.scbrd{
+    border : 3px solid white;
+    width:180px;
+    margin: 20px auto;
+    font-size: 50px;
+    padding :20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.bd{
+    background-color:red;
+    font-size: 16px;
+    
+}
+
+#usleb{
+    position:absolute;
+    top: 40px;
+    left:-28px;
+    padding:2px 10px;
+}
+
+#coleb{
+    position:absolute;
+    top: 40px;
+    right:-32px;
+    padding: 2px 10px;
+}
