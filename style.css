@@ -13,3 +13,8 @@ header > h1{
     text-align: center;
     font-size:bold;
 }
+
+body{
+    background-color:#21024a;
+    color:white;
+}
