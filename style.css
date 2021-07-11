@@ -55,3 +55,7 @@ body{
     text-align: center;
     color:aqua;
 }
+
+.stcho{
+    display: inline-block;
+}
