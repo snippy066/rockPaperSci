@@ -30,10 +30,11 @@ function win(usrch,cmpch){
     userScore_show.innerHTML=userScore;
     compScore_show.innerHTML=compScore;
 
-    const smluser="user".fontsize(3).sub();
-    const smlcomp="computer".fontsize(3).sub();
+    const smluser="user".fontsize(3).fontcolor("#d46c04").sub();
+    const smlcomp="computer".fontsize(3).fontcolor("#d46c04").sub();
 
     result_div.innerHTML=word(usrch)+smluser+" beats "+word(cmpch)+smlcomp+" .You win&#x1F389"	;
+    
 }
 
 function lose(usrch,cmpch){
@@ -41,8 +42,8 @@ function lose(usrch,cmpch){
     userScore_show.innerHTML=userScore;
     compScore_show.innerHTML=compScore;
 
-    const smluser="user".fontsize(3).sub();
-    const smlcomp="computer".fontsize(3).sub();
+    const smluser="user".fontsize(3).fontcolor("#d46c04").sub();
+    const smlcomp="computer".fontsize(3).fontcolor("#d46c04").sub();
 
     result_div.innerHTML=word(usrch)+smluser+" beats "+word(cmpch)+smlcomp+" .You lost&#x1F97A"	;
 
@@ -52,8 +53,8 @@ function draw(usrch,cmpch){
     userScore_show.innerHTML=userScore;
     compScore_show.innerHTML=compScore;
 
-    const smluser="user".fontsize(3).sub();
-    const smlcomp="computer".fontsize(3).sub();
+    const smluser="user".fontsize(3).fontcolor("#d46c04").sub();
+    const smlcomp="computer".fontsize(3).fontcolor("#d46c04").sub();
 
     result_div.innerHTML=word(usrch)+smluser+" beats "+word(cmpch)+smlcomp+" .It's a draw&#x1F642"	;
 
