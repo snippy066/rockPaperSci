@@ -1,11 +1,11 @@
 let userScore=0;
 let compScore=0;
 
-const userScore_show=document.getElementById("usleb");
-const compScore_show=document.getElementById("coleb");
+const userScore_show=document.getElementById("user");
+const compScore_show=document.getElementById("comp");
 
 const scoreBoard_div=document.querySelector(".scbrd");
-const result_div=document.querySelector(".beg");
+const result_div=document.querySelector(".result");
 
 const rock_i=document.getElementById("r");
 const paper_i=document.getElementById("p");
@@ -19,38 +19,64 @@ function getComputerChoi(){
      return choices[ch];
 }
 
-function win(){
+function word(letter){
+    if(letter=="r") return "Rock";
+    else if(letter=="p") return "Paper";
+    return "Scissors";
+}
+
+function win(usrch,cmpch){
     userScore++;
-    console.log(userScore);
+    userScore_show.innerHTML=userScore;
+    compScore_show.innerHTML=compScore;
+
+    const smluser="user".fontsize(3).sub();
+    const smlcomp="computer".fontsize(3).sub();
+
+    result_div.innerHTML=word(usrch)+smluser+" beats "+word(cmpch)+smlcomp+" .You win&#x1F389"	;
 }
 
-function lose(){
+function lose(usrch,cmpch){
+    compScore++;
+    userScore_show.innerHTML=userScore;
+    compScore_show.innerHTML=compScore;
+
+    const smluser="user".fontsize(3).sub();
+    const smlcomp="computer".fontsize(3).sub();
+
+    result_div.innerHTML=word(usrch)+smluser+" beats "+word(cmpch)+smlcomp+" .You lost&#x1F97A"	;
 
 }
 
-function draw(){
+function draw(usrch,cmpch){
+    userScore_show.innerHTML=userScore;
+    compScore_show.innerHTML=compScore;
+
+    const smluser="user".fontsize(3).sub();
+    const smlcomp="computer".fontsize(3).sub();
+
+    result_div.innerHTML=word(usrch)+smluser+" beats "+word(cmpch)+smlcomp+" .It's a draw&#x1F642"	;
 
 }
 
 function game(Choice){
     const compChoice=getComputerChoi();
 
-    const winner=Choice+compChoice;
-   switch(winner){
+   switch(Choice+compChoice){
         case "rs":
         case "pr":
         case "sp":
-          win();
+          win(Choice,compChoice);
           break;
 
         case "rp":
         case "ps":
         case "sr":
-            lose();
+            lose(Choice,compChoice);
             break;
 
         default:
-            draw();
+            draw(Choice,compChoice);
    }
 
 }
