@@ -1,5 +1,5 @@
-const userScore=0;
-const compScore=0;
+let userScore=0;
+let compScore=0;
 
 const userScore_show=document.getElementById("usleb");
 const compScore_show=document.getElementById("coleb");
@@ -20,7 +20,8 @@ function getComputerChoi(){
 }
 
 function win(){
-
+    userScore++;
+    console.log(userScore);
 }
 
 function lose(){
@@ -28,7 +29,7 @@ function lose(){
 }
 
 function draw(){
-    
+
 }
 
 function game(Choice){
