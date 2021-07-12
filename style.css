@@ -82,3 +82,19 @@ i:hover{
     font-size: 35px;
     text-align: center;
 }
+
+
+.win{
+    border: 4px solid #0da12d;
+    box-shadow:0 0 10px #058220 ;
+}
+
+.lose{
+    border: 4px solid #bd3333;
+    box-shadow:0 0 10px #960606 ;
+}
+
+.draw{
+    border: 4px solid #adaaaa;
+    box-shadow:0 0 10px #7d7a7a ;
+}
