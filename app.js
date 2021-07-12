@@ -40,7 +40,7 @@ function win(usrch,cmpch){
     setTimeout(
         function(){
             document.getElementById(usrch).classList.remove('win');
-        },500
+        },300
     )
 }
 
@@ -59,7 +59,7 @@ function lose(usrch,cmpch){
     setTimeout(
         function(){
             document.getElementById(usrch).classList.remove('lose');
-        },500
+        },300
     )
 
 }
@@ -78,7 +78,7 @@ function draw(usrch,cmpch){
     setTimeout(
         function(){
             document.getElementById(usrch).classList.remove('draw');
-        },500
+        },300
     )
 
 }
