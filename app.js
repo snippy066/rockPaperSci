@@ -21,8 +21,26 @@ function getComputerChoi(){
 
 function game(Choice){
     const compChoice=getComputerChoi();
-    console.log(Choice);
-    console.log(compChoice);
+   // console.log(Choice); r>s, p>r , s>p
+   // console.log(compChoice);
+    const winner=Choice+compChoice;
+   switch(winner){
+        case "rs":
+        case "pr":
+        case "sp":
+          console.log("user wins"+winner);
+          break;
+
+        case "rp":
+        case "ps":
+        case "sr":
+            console.log("you lost"+winner);
+            break;
+
+        default:
+            console.log("draw"+winner);
+   }
+
 }
 
 function main(){
