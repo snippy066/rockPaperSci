@@ -34,7 +34,14 @@ function win(usrch,cmpch){
     const smlcomp="computer".fontsize(3).fontcolor("#d46c04").sub();
 
     result_div.innerHTML=word(usrch)+smluser+" beats "+word(cmpch)+smlcomp+" .You win&#x1F389"	;
-    
+
+    document.getElementById(usrch).classList.add('win');
+
+    setTimeout(
+        function(){
+            document.getElementById(usrch).classList.remove('win');
+        },500
+    )
 }
 
 function lose(usrch,cmpch){
@@ -47,6 +54,14 @@ function lose(usrch,cmpch){
 
     result_div.innerHTML=word(usrch)+smluser+" beats "+word(cmpch)+smlcomp+" .You lost&#x1F97A"	;
 
+    document.getElementById(usrch).classList.add('lose');
+
+    setTimeout(
+        function(){
+            document.getElementById(usrch).classList.remove('lose');
+        },500
+    )
+
 }
 
 function draw(usrch,cmpch){
@@ -57,6 +72,14 @@ function draw(usrch,cmpch){
     const smlcomp="computer".fontsize(3).fontcolor("#d46c04").sub();
 
     result_div.innerHTML=word(usrch)+smluser+" beats "+word(cmpch)+smlcomp+" .It's a draw&#x1F642"	;
+
+    document.getElementById(usrch).classList.add('draw');
+
+    setTimeout(
+        function(){
+            document.getElementById(usrch).classList.remove('draw');
+        },500
+    )
 
 }
 
