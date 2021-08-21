@@ -6,9 +6,16 @@
 
 ### Features :
 <p style ="font-size: 12px ;">Based on the result you will get awarded scorces.</p>
-Win: if you win the game then your score goes up as well as there will be a green light on your choice.
-Lose: if you lose the game then computers score goes up as well as there will be a red light on your choice.
-Draw : If it's a draw then no one will provided score and their will be a gray light on your choice.
+Win: if you win the game then your score goes up as well as there will be a green light on your choice. &nbsp;
+Lose: if you lose the game then computers score goes up as well as there will be a red light on your choice. &nbsp;
+Draw : If it's a draw then no one will provided score and their will be a gray light on your choice. &nbsp;
+
+
+#SCREEN_SHOTS
+
+![Win]()
+![lose]()
+![draw]()
 
 
 
