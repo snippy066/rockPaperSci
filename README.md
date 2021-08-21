@@ -4,12 +4,12 @@
  ----
  
  ### Introduction :
-> &nbsp; &nbsp; This is game it based on treditional Rock , paper , Scrissor game . In this game you compete against the computer and based on your and computers choice it decides the result which can be win ,lose or draw.
+&nbsp; &nbsp; This is game it based on treditional Rock , paper , Scrissor game . In this game you compete against the computer and based on your and computers choice it decides the result which can be win ,lose or draw.
 
 ----
 
 ### Features :
-> &nbsp; &nbsp; Based on the result you will get awarded scorces.
+&nbsp; &nbsp; Based on the result you will get awarded scorces.<br/>
 <i>Win : if you win the game then your score goes up as well as there will be a green light on your choice.<br/>
 Lose : if you lose the game then computers score goes up as well as there will be a red light on your choice.<br/>
 Draw : If it's a draw then no one will provided score and their will be a gray light on your choice.</i>
