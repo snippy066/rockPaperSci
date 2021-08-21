@@ -6,4 +6,6 @@
 
 ### Features :
 <p style ="font-size: 12px ;">Based on the result you will get awarded scorces.</p>
-<u style="color:#43f7eb ; text-align :center">Winner</u>
+_Winner:_ if you win the game then your score goes up as well as there will be a green light on your choice.
+
+
