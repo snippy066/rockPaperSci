@@ -6,4 +6,4 @@
 
 ### Features :
 <p style ="font-size: 12px ;">Based on the result you will get awarded scorces.</p>
-<u style="color:#43f7eb">Winner</u>
+<u style="color:#43f7eb ; text-align :center">Winner</u>
