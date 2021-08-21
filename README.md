@@ -2,7 +2,8 @@
  rock paper scissors game using javascript
  
  ### Introduction :
-This is game it based on treditional Rock , paper , Scrissor game . In this game you compete against the computer and based on your and computers choice it decides the result which can be win ,lose or draw. 
+<p style ="font-size: 12px ;">This is game it based on treditional Rock , paper , Scrissor game . In this game you compete against the computer and based on your and computers choice it decides the result which can be win ,lose or draw. </p>
 
 ### Features :
-Based on the result you will get the scores.
+<p style ="font-size: 12px ;">Based on the result you will get awarded scorces.</p>
+<u style="color:#43f7eb">Winner</u>
