@@ -10,9 +10,9 @@
 
 ### &nbsp; Features :
 <p style ="font-size: 12px ;">Based on the result you will get awarded scorces.</p>
->nbsp; Win : if you win the game then your score goes up as well as there will be a green light on your choice.
->&nbsp; Lose : if you lose the game then computers score goes up as well as there will be a red light on your choice.
->&nbsp; Draw : If it's a draw then no one will provided score and their will be a gray light on your choice.
+<i>Win : if you win the game then your score goes up as well as there will be a green light on your choice.</i>
+<i>Lose : if you lose the game then computers score goes up as well as there will be a red light on your choice.</i>
+<i>Draw : If it's a draw then no one will provided score and their will be a gray light on your choice.</i>
 
 ----
 
